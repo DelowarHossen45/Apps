@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <VideoView
+        android:id="@+id/VideoShow"
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="201dp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="496dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/a"
+                android:layout_width="200dp"
+                android:layout_height="235dp"
+                android:onClick="a"
+                android:background="@drawable/button_shape"
+                android:text="অ"
+                android:textColor="#FFFFFF"
+                android:textSize="170sp"
+
+                />
+
+            <Button
+                android:id="@+id/b"
+                android:layout_width="200dp"
+                android:layout_height="235dp"
+                android:onClick="b"
+                android:background="@drawable/button_shape"
+                android:text="আ"
+                android:textColor="#FFFFFF"
+                android:textSize="170sp" />
+
+            <Button
+                android:id="@+id/c"
+                android:layout_width="200dp"
+                android:layout_height="235dp"
+                android:onClick="c"
+                android:background="@drawable/button_shape"
+                android:text="ই"
+                android:textColor="#FFFFFF"
+                android:textSize="170sp" />
+
+            <Button
+                android:id="@+id/d"
+                android:layout_width="200dp"
+                android:layout_height="235dp"
+                android:onClick="d"
+                android:background="@drawable/button_shape"
+                android:text="ঈ"
+                android:textColor="#FFFFFF"
+                android:textSize="170sp" />
+
+            <Button
+                android:id="@+id/e"
+                android:layout_width="200dp"
+                android:layout_height="235dp"
+                android:onClick="e"
+                android:background="@drawable/button_shape"
+                android:text="উ"
+                android:textColor="#FFFFFF"
+                android:textSize="170sp" />
+
+            <Button
+                android:id="@+id/f"
+                android:layout_width="200dp"
+                android:layout_height="235dp"
+                android:onClick="f"
+                android:background="@drawable/button_shape"
+                android:text="ঊ"
+                android:textColor="#FFFFFF"
+
+                android:textSize="170sp" />
+
+            <Button
+                android:id="@+id/g"
+                android:layout_width="200dp"
+                android:layout_height="235dp"
+                android:onClick="g"
+                android:background="@drawable/button_shape"
+                android:text="ঋ"
+                android:textColor="#FFFFFF"
+                android:textSize="170sp" />
+
+            <Button
+                android:id="@+id/h"
+                android:layout_width="200dp"
+                android:layout_height="235dp"
+                android:onClick="h"
+                android:background="@drawable/button_shape"
+                android:text="এ"
+                android:textColor="#FFFFFF"
+                android:textSize="170sp" />
+
+            <Button
+                android:id="@+id/i"
+                android:layout_width="200dp"
+                android:layout_height="235dp"
+                android:onClick="i"
+                android:background="@drawable/button_shape"
+                android:text="ঐ"
+                android:textColor="#FFFFFF"
+                android:textSize="170sp" />
+
+            <Button
+                android:id="@+id/j"
+                android:layout_width="200dp"
+                android:layout_height="235dp"
+                android:onClick="j"
+                android:background="@drawable/button_shape"
+                android:text="ও"
+                android:textColor="#FFFFFF"
+                android:textSize="170sp" />
+
+            <Button
+                android:id="@+id/k"
+                android:layout_width="200dp"
+                android:layout_height="235dp"
+                android:onClick="k"
+                android:background="@drawable/button_shape"
+                android:text="ঔ"
+                android:textColor="#FFFFFF"
+                android:textSize="170sp" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+
+
+
+
+
+
+</RelativeLayout>
